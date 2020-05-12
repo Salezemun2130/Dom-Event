@@ -1,0 +1,133 @@
+body {
+  font-family: 'Oswald', Helvetica, sans-serif;
+  height: 97vh;
+  padding: 0;
+  margin: 0;
+  /* overflow: hidden; */
+}
+
+/* Header */
+header {
+  position: relative/fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid #ccc;
+}
+
+.coolTitle {
+  margin: 0;
+  padding: 4rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 80px;
+  transform: skewY(-5deg);
+  letter-spacing: 4px;
+  color: tomato;
+  text-shadow:
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px #036F9D;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+/* Newsletter */
+#newsletter {
+  background-color: #036F9D;
+  opacity: 0.8;
+  position: relative/fixed;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+.first {
+  font-family: 'Oswald', Helvetica, sans-serif;
+  margin-top: 0;
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #000;
+}
+
+.fa {
+  padding-right: 80px;
+  margin-bottom: 35px;
+  font-size: 70px;
+  color: #000;
+}
+
+#userinput,
+.btn {
+  display: inline-block;
+  margin-bottom: 35px;
+  padding: 0.5rem 2rem;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+
+#input {
+  background-color: #f4f4f4;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn {
+  cursor: pointer;
+  margin: 0;
+  background: #e8491d;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+/* Showcase */
+#list-items {
+  height: 100%;
+  background-color: #6B949E;
+  box-sizing: border-box;
+  padding-left: 1rem;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+li {
+  text-transform: capitalize;
+  color: #f4f4f4;
+  margin-left: 850px;
+  font-size: 25px;
+  padding: 0.5rem;
+}
+
+/* Fotter */
+.footer {
+  position: fixed;
+  border: 2px solid #000;
+  padding: 0;
+  left: 0;
+  bottom: 0;
+  font-size: 1.3rem;
+  width: 100%;
+  background-color: #e8491d;
+  color: white;
+  text-align: center;
+}
